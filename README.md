@@ -40,9 +40,10 @@ after that you can set mail notification at project config e.g.
             "change"
         ],
         "to": {
-            "mail": [
-                "somemail@gmail.com"
-            ]
+            "mail": {
+                "sender": "someone@gmail.com",
+                "recipients": ["somemail@gmail.com"]
+            }
         }
     },
 ```
